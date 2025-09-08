@@ -1,9 +1,14 @@
-🚀 LeetCode Solutions – Python & C++
+# 🚀 LeetCode Solutions – Python & C++
 
-Welcome to my LeetCode Solutions Repository!
-This repo is where I track my problem-solving journey, organized by difficulty and pattern, with solutions in both Python 🐍 and C++ ⚡.
+Welcome to my **LeetCode Solutions Repository**!
 
-📂 Repository Structure
+This repo is where I track my **problem-solving journey**, organized by **difficulty** and **pattern**, with solutions in both **Python** 🐍 and **C++** ⚡.
+
+---
+
+## 📂 Repository Structure
+
+```
 leetcode-solutions/
 │── README.md
 │── Easy/
@@ -32,19 +37,22 @@ leetcode-solutions/
 │   │   ├── 847_shortest_path_visiting_all_nodes.cpp
 │   └── ...
 
-📖 Coding Style
+```
+
+---
+
+## 📖 Coding Style
 
 Each solution includes:
 
-Problem link
+- Problem link
+- Category & difficulty
+- Approach explanation
+- Complexity analysis
 
-Category & difficulty
+### Example (Python 🐍)
 
-Approach explanation
-
-Complexity analysis
-
-Example (Python 🐍)
+```python
 """
 LeetCode Problem: 435. Non-overlapping Intervals
 Difficulty: Medium
@@ -72,7 +80,11 @@ class Solution:
                 end = intervals[i][1]
         return remove
 
-Example (C++ ⚡)
+```
+
+### Example (C++ ⚡)
+
+```cpp
 /*
 LeetCode Problem: 435. Non-overlapping Intervals
 Difficulty: Medium
@@ -108,44 +120,48 @@ public:
     }
 };
 
-✨ Features
+```
 
-✅ Organized by Difficulty (Easy, Medium, Hard)
+---
 
-✅ Pattern-based Structure (Array, Sliding Window, DP, Greedy, Graph, etc.)
+## ✨ Features
 
-✅ Both Python & C++ Implementations
+- ✅ **Organized by Difficulty** (Easy, Medium, Hard)
+- ✅ **Pattern-based Structure** (Array, Sliding Window, DP, Greedy, Graph, etc.)
+- ✅ **Both Python & C++ Implementations**
+- ✅ **Clean Explanations + Complexity Analysis**
+- ✅ **Regular Updates** as I solve new problems
 
-✅ Clean Explanations + Complexity Analysis
+---
 
-✅ Regular Updates as I solve new problems
+## 📈 My Progress
 
-📈 My Progress
+- **Solved so far**: 55+ problems (and counting 🚀)
+- **Languages**: Python & C++
+- **Goal**: 300+ problems with structured notes
 
-Solved so far: 55+ problems (and counting 🚀)
+---
 
-Languages: Python & C++
+## 🧭 How to Use
 
-Goal: 300+ problems with structured notes
+- Browse to a difficulty folder (`Easy`, `Medium`, `Hard`).
+- Pick a pattern (`Array`, `Greedy`, etc.).
+- Open `.py` or `.cpp` file for solution + explanation.
 
-🧭 How to Use
+---
 
-Browse to a difficulty folder (Easy, Medium, Hard).
+## 🌟 Why This Repo?
 
-Pick a pattern (Array, Greedy, etc.).
+This repo is part of my **DSA & Interview Prep Journey**.
 
-Open .py or .cpp file for solution + explanation.
-
-🌟 Why This Repo?
-
-This repo is part of my DSA & Interview Prep Journey.
 It showcases:
 
-My growth in problem-solving
+- My **growth in problem-solving**
+- My **consistency**
+- My **ability to code cleanly in two languages**
 
-My consistency
+---
 
-My ability to code cleanly in two languages
+💡 **Star** this repo if you found it helpful!
 
-💡 Star this repo if you found it helpful!
 Let’s keep learning and growing 🚀
